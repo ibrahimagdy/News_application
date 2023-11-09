@@ -41,8 +41,8 @@ class _HomeViewState extends State<HomeView> {
       categoryBackgroundColor: Color(0xFFCF7E48),
     ),
     const CategoryData(
-      categoryId: "entertainment",
-      categoryTitle: "Environment",
+      categoryId: "technology",
+      categoryTitle: "Technology",
       categoryImage: "assets/images/environment_icon.png",
       categoryBackgroundColor: Color(0xFF4882CF),
     ),
