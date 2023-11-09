@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:news_application/pages/home_screen/details_of_the_new.dart';
 import 'package:news_application/pages/home_screen/home_screen.dart';
 import 'package:news_application/pages/settings_screen/settings_screen.dart';
 import 'package:news_application/pages/splash_screen/splash_screen.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
       routes: {
         SplashView.routeName: (context) => const SplashView(),
         HomeView.routeName: (context) => const HomeView(),
+        DetailsOfNew.routeName: (context) => DetailsOfNew(),
         SettingsScreen.routeName: (context) => const SettingsScreen(),
       },
     );
